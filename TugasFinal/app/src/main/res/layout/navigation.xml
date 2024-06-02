@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:padding="18dp"
+        android:background="@drawable/navbar"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <ImageView
+            android:id="@+id/IV_Home"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="30dp"
+            android:src="@drawable/baseline_home_24"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/IV_Search"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="90dp"
+            android:src="@drawable/baseline_search_24"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:id="@+id/IV_Cart"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="90dp"
+            android:src="@drawable/star"
+            android:layout_centerHorizontal="true"/>
+
+<!--        <ImageView-->
+<!--            android:id="@+id/IV_Profile"-->
+<!--            android:layout_width="35dp"-->
+<!--            android:layout_height="35dp"-->
+<!--            android:layout_marginStart="60dp"-->
+<!--            android:src="@drawable/baseline_account_circle_24"-->
+<!--            android:layout_centerHorizontal="true"/>-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
